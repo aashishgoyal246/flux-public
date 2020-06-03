@@ -14,8 +14,8 @@ spec:
     path: helm-operator/charts/ghost
   values:
     image:
-      repository: nginx
-      tag: latest
+      repository: bitnami/ghost
+      tag: 3.1.1-debian-9-r0
     persistence:
       enabled: false
     resources:
