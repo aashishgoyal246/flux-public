@@ -9,7 +9,7 @@ metadata:
 spec:
   releaseName: ghost
   chart:
-    git: ssh://git@github.com/aashishgoyal246/flux-private
+    git: ssh://git@github.com/aashishgoyal246/flux-public
     ref: master
     path: helm-operator/charts/ghost
   values:
