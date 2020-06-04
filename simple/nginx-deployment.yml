@@ -6,6 +6,7 @@ metadata:
     app: nginx
   annotations:
     fluxcd.io/automated: "true"
+    fluxcd.io/ignore: "false"
 spec:
   replicas: 3
   selector:
