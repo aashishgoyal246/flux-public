@@ -8,6 +8,6 @@ spec:
   type: NodePort
   ports:
     - name: my-nginx-port
-      nodePort: 32456
+      nodePort: 32458
       port: 8080
       targetPort: 80
