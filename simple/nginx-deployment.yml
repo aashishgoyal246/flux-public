@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: aashishgoyal246/test-flux:dev-2aa3ae7
         ports:
         - containerPort: 80
