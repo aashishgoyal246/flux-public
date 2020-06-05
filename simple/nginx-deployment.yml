@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,6 +20,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: aashishgoyal246/test-flux:dev-2aa3ae7
+        image: aashishgoyal246/test-flux:dev-1b34ba5
         ports:
         - containerPort: 80
