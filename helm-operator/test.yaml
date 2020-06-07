@@ -2,6 +2,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: test
+  namespace: default
   annotations:
     fluxcd.io/automated: "false"
 spec:
